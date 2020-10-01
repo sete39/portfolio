@@ -1,0 +1,165 @@
+/* html {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffd5cd;
+    font-size: 100;
+    color: #8675a9
+} */
+
+html {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f1f3f8;
+    font-size: 16;
+}
+
+body {
+    margin: 0;
+}
+
+nav.navBar{
+    margin: 0px 0vw 0px 0vw;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navBar div {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    background-color: #f1f3f8;
+}
+
+#leftOfNavbar {
+    padding: 1vh 2vw 1vh 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navbar div a {
+    padding: 2rem 4vw 2rem 4vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.navbar div a:hover {
+    background-color: #d6e0f0;
+}
+
+.centeredHeader h1 {
+    margin: auto;
+    width: 50%;
+    padding: 2% 0% 1% 0%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+}
+.centeredBody {
+    margin: auto;
+    width: 50%;
+    padding: 1% 0% 0% 0%;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.centeredBody a {
+    text-decoration: none;
+}
+
+.centeredBody p {
+    margin: 0;
+}
+
+.centeredBody ul {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.centeredForm {
+    background-color: #d6e0f0;
+    margin: auto;
+    width: 50%;
+    padding: 1% 0 1% 0;
+    border-radius: 5px;
+}
+
+.centeredForm label {
+    padding: 0.5% 2%;
+    display: block;
+}
+
+.centeredForm input[type="text"] {
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #f1f3f8; 
+    border: 0;
+    text-align: left;
+}
+.centeredForm input:focus {
+    outline: none;
+}
+
+.centeredForm input[type="submit"] {
+    width: 20%;
+    height: 4%;
+    margin-left: 40%;
+    margin-top: 2%;
+    border: 0 none;
+    background-color: #393b44;
+    color: white;
+}
+
+.centeredForm input[type="submit"]:hover {
+    background-color: #8d93ab;
+    color: black;
+}
+
+#biggerTextfield {
+    width: 95%;
+    height: 10%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #f1f3f8; 
+    border: 0;
+    text-align: left;
+    resize: vertical;
+}
+
+#biggerTextField:focus {
+    outline: none;
+}
+
+#fillBottomOfPage {
+    padding: 0% 0% 35% 0%;
+}
+
+.copyrightBottomRight {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-weight: 900;
+}
+
+.ausBackground {
+    overflow: hidden;
+}
+
+.ausBackground div {
+    margin: -5px -10px -10px -5px;
+    background: url("https://www.aus.edu/sites/default/files/AUS%20Campus%20%2817%29_0.jpg") fixed;
+    background-position: 0px -90px;
+    background-size: cover;
+    padding: 30vh 10vw;
+    /* filter: blur(0px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px); */
+}
