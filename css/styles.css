@@ -153,7 +153,7 @@ nav.navBar{
 
 .ausBackground div {
     margin: -5px -10px -10px -5px;
-    background: url("https://www.aus.edu/sites/default/files/AUS%20Campus%20%2817%29_0.jpg") fixed;
+    background: url("../extra/AUS_Campus_\(17\)_0.jpg") fixed;
     background-position: 0px -90px;
     background-size: cover;
     padding: 30vh 10vw;
