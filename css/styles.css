@@ -155,7 +155,6 @@ nav.navBar{
 }
 
 .ausBackground div {
-    margin: -5px -10px -10px -5px;
     background: url("../extra/AUS_Campus_\(17\)_0.jpg") fixed;
     background-position: 0px -20px;
     background-size: cover;
@@ -172,10 +171,31 @@ nav.navBar{
 }
 
 .projectsBackground div {
-    margin: -5px -10px -10px -5px;
     background-size: 100% 100%;
     background: url("../extra/projects_rain_background.png") fixed;
     background-position: 0px -300px;
     background-size: cover;
     padding: 30vh 10vw;
+}
+
+.videoBackground {
+    overflow: hidden;
+}
+
+.videoBackground iframe {
+    /* z-index: -99;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 60%; */
+    height: 60%;
+    width: 100%;
+    position: fixed;
+}
+
+.coloredBackground {
+    background-color: #f1f3f8;
+    position: absolute;
+    top: 70%;
+    width:100%;
 }
