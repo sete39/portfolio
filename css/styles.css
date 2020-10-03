@@ -174,8 +174,8 @@ nav.navBar{
 .projectsBackground div {
     margin: -5px -10px -10px -5px;
     background-size: 100% 100%;
-    background: url("../extra/AUS_Campus_\(17\)_0.jpg") fixed;
-    background-position: 0px 0px;
+    background: url("../extra/projects_rain_background.png") fixed;
+    background-position: 0px -300px;
     background-size: cover;
     padding: 30vh 10vw;
 }
