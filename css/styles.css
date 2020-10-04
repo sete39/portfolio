@@ -2,10 +2,14 @@ html {
     font-family: 'Nunito', sans-serif;
     background-color: #f1f3f8;
     font-size: 16;
+    height: 100%;
+    width: 100%
 }
 
 body {
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 nav.navBar{
@@ -181,7 +185,7 @@ nav.navBar{
 
 .coloredBackground {
     background-color: #f1f3f8;
-    position: absolute;
-    top: 70%;
+    position: relative;
+    top: 60%;
     width:100%;
 }
