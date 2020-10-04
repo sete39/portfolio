@@ -11,10 +11,13 @@ body {
 nav.navBar{
     margin: 0px 0vw 0px 0vw;
     overflow: hidden;
+    position: -webkit-sticky;
+     /* ^ for safari */
     position: sticky;
     top: 0;
     z-index: 1;
 }
+
 
 .navBar div {
     list-style-type: none;
